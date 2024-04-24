@@ -1,0 +1,174 @@
+.topnav {
+    background-color: #e7d1ff;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17.5px;
+    font-family: "Syne Mono", monospace;
+ 
+}
+
+.topnav .menu-links a,
+.topnav .dropdown .dropbtn {
+    padding: 14px 16px; /* Adjust padding as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    font-family: "Syne Mono", monospace;
+}
+
+.menu-logo {
+    float: left;
+    padding: 14px 20px; /* Adjust padding as needed */
+}
+
+.menu-logo a {
+    text-decoration: none;
+    font-size: 30px; /* Increase font size */
+    font-weight: bold; /* Optionally, make it bold */
+    color: #9878b7; /* Adjust the color as needed */
+}
+
+.topnav a:hover,
+.topnav .dropdown:hover .dropbtn { /* Apply hover effect to both regular links and dropdown button */
+    background-color: #d2afff;
+    color: black;
+    
+}
+
+.topnav a.active {
+    background-color: #e6d7ff;
+    color: rgb(0, 0, 0);
+}
+
+.menu-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-size: xx-large;
+    color: #d8b9ff;
+    font-weight: bolder;
+}
+
+h1 {
+    padding: 2px 50px; 
+}
+
+.topnav .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+ 
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.info-box {
+    width: 30%;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Inconsolata", monospace;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.body-footer-contact,
+.body-footer-office {
+    flex: 1; /* Distribute available space equally */
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+}
+
+.design{
+    width: 70%;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    font-size: x-large;
+    font-family: "Inconsolata", monospace;
+}
+
+.team{
+    text-align: center;
+    padding: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imageTwo{
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+

@@ -16,25 +16,25 @@
 
 .topnav .menu-links a,
 .topnav .dropdown .dropbtn {
-    padding: 14px 16px; /* Adjust padding as needed */
-    font-size: 18px; /* Adjust font size as needed */
+    padding: 14px 16px; 
+    font-size: 18px; 
     font-family: "Syne Mono", monospace;
 }
 
 .menu-logo {
     float: left;
-    padding: 14px 20px; /* Adjust padding as needed */
+    padding: 14px 20px; 
 }
 
 .menu-logo a {
     text-decoration: none;
-    font-size: 30px; /* Increase font size */
-    font-weight: bold; /* Optionally, make it bold */
-    color: #9878b7; /* Adjust the color as needed */
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #9878b7; 
 }
 
 .topnav a:hover,
-.topnav .dropdown:hover .dropbtn { /* Apply hover effect to both regular links and dropdown button */
+.topnav .dropdown:hover .dropbtn { 
     background-color: #d2afff;
     color: black;
     
@@ -128,7 +128,7 @@ h1 {
 
 .body-footer-contact,
 .body-footer-office {
-    flex: 1; /* Distribute available space equally */
+    flex: 1; 
     text-align: center;
 }
 
@@ -170,5 +170,20 @@ h3 {
     text-align: center;
 }
 
+/* Additional styles for smaller screens  */
+@media screen and (max-width: 768px) {
+    .info-box {
+        width: 100%; 
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .images img {
+        width: 150px; 
+    }
+}
 
 
